@@ -1,0 +1,7 @@
+{
+  "name": "gurmukhi",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
