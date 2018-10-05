@@ -9,11 +9,27 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+
+import { FuntionsPage} from '../pages/funtions/funtions';
+import {LibraryPage} from '../pages/library/library';
+import {JapjiPage} from '../pages/japji/japji';
+
+import {AboutGurmukhiPage} from '../pages/about-gurmukhi/about-gurmukhi';
+import {AboutGriPage} from '../pages/about-gri/about-gri';
+
+
+
+
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    FuntionsPage,
+    LibraryPage,
+    JapjiPage,
+    AboutGurmukhiPage,
+    AboutGriPage
   ],
   imports: [
     BrowserModule,
@@ -23,7 +39,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    FuntionsPage,
+    LibraryPage,
+    JapjiPage,
+     AboutGurmukhiPage,
+    AboutGriPage
   ],
   providers: [
     StatusBar,
