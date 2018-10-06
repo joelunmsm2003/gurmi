@@ -52,4 +52,9 @@ import {AboutGriPage} from '../pages/about-gri/about-gri';
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
-export class AppModule {}
+export class AppModule {
+   myIcon: string = "home";
+}
+
+
+
