@@ -13,6 +13,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { FuntionsPage} from '../pages/funtions/funtions';
 import {LibraryPage} from '../pages/library/library';
 import {JapjiPage} from '../pages/japji/japji';
+import {VisionPage} from '../pages/vision/vision';
+import {AffiliatedPage} from '../pages/affiliated/affiliated';
 
 import {AboutGurmukhiPage} from '../pages/about-gurmukhi/about-gurmukhi';
 import {AboutGriPage} from '../pages/about-gri/about-gri';
@@ -29,7 +31,9 @@ import {AboutGriPage} from '../pages/about-gri/about-gri';
     LibraryPage,
     JapjiPage,
     AboutGurmukhiPage,
-    AboutGriPage
+    AboutGriPage,
+    VisionPage,
+    AffiliatedPage
   ],
   imports: [
     BrowserModule,
@@ -44,7 +48,9 @@ import {AboutGriPage} from '../pages/about-gri/about-gri';
     LibraryPage,
     JapjiPage,
      AboutGurmukhiPage,
-    AboutGriPage
+    AboutGriPage,
+    VisionPage,
+    AffiliatedPage
   ],
   providers: [
     StatusBar,

@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { VisionPage} from '../vision/vision';
+import { AffiliatedPage} from '../affiliated/affiliated';
 
 /**
  * Generated class for the AboutGriPage page.
@@ -15,7 +17,18 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class AboutGriPage {
 
+	visionPage: any;
+	affiliatedPage: any;
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  	this.visionPage = VisionPage;
+  	this.affiliatedPage = AffiliatedPage;
+
+
+
+
+
+
   }
 
   ionViewDidLoad() {
