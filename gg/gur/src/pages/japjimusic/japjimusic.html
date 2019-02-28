@@ -1,0 +1,60 @@
+<!--
+  Generated template for the JapjimusicPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+<ion-content >
+
+	<div style='height:20px'></div>
+
+	<div class='japjimusic' style='text-align:center;'>
+	<h1>MOOL MANTRA</h1>
+
+	<h4 style='text-decoration:underline;' [navPush]="aboutjapjimusicPage" >About mantra</h4>
+
+<div style='height:20px'></div>
+	<video  height="400" autoplay>
+  <source src="assetss/multimedia/Japji/mool_mantra/video.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+
+</video>
+
+</div>
+</ion-content>
+
+
+<ion-footer>
+  <ion-toolbar color='dark' style='text-align: center;'>
+    <div class='menuinferior'>
+
+      <div [navPush]="homePage">
+        <img src='assets/nav/nav-1A-Home.png'>
+       
+      </div>
+
+      <div [navPush]="pushPage">
+        <img src='assets/nav/nav-2A-GurmukhiSounds.png'>
+      </div>
+
+
+      <div ><img src='assets/nav/nav-3B-Japji.png'>
+        
+      </div>
+
+
+      <div  [navPush]="libraryPage"><img src='assets/nav/nav-4A-AquarianMantras.png'>
+        
+      </div>
+
+
+      <div [navPush]="aboutPage"><img src='../assets/nav/nav-5A-AboutUs.png'>
+      </div>
+
+
+    </div>
+
+  </ion-toolbar>
+</ion-footer>

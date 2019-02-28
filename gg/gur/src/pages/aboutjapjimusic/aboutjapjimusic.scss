@@ -1,0 +1,43 @@
+page-aboutjapjimusic {
+
+
+	font-family:'Rounded';
+
+	.abouttitulo{
+		text-align: center;
+    padding: 25px;
+    font-size: 23px;
+    background: #123;
+    color: #fff;
+    padding-bottom: 46px;
+    background: linear-gradient(270deg, #3737bd -43%, #6246DB 59%, #3737bd 99%);
+	}
+
+	.aboutsubtitulo{
+padding: 0 40px 0px 40px;
+    text-align: center;
+
+
+	}
+
+	.detalle{
+
+margin-top: -29px;
+    border-radius: 39px;
+    background: #fff;
+    border: 1px solid #f9f9fb;
+    padding: 23px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    color: #ef7430;
+    font-size: 30px;
+
+	}
+
+	.menuinferior{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+
+
+}

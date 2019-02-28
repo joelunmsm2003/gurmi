@@ -1,0 +1,130 @@
+<!--
+  Generated template for the FuntionsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+
+<ion-content >
+	
+
+
+
+<div  class='language'>
+<div class='lan'>
+
+<img *ngIf='imagen_referencia' src='{{imagen_referencia.imagen}}'/>
+
+</div>
+
+
+<div class='pronunciacion'>
+
+      <div style='background:#000;width:100% ;padding:15px;text-align:center;color:#fff;'>
+       <!--<button full ion-button color='dark' [navPush]="about_griPage">Moth</button>-->
+
+       Moth
+      </div>
+
+      <div class='detalle'>
+
+        <div style='text-align: center;'>
+         <img src='{{image_seleccionado}}'/></div>
+
+        <div style='text-align:center;'>-</div>
+
+         <span style='text-align:center;color:#fff;font-size:20px;font-weight:bold;'>{{letra}}</span>
+
+      </div>
+
+
+
+
+</div>
+
+</div>
+
+
+
+
+<!--<ion-grid  style='margin-top:90px;'  >
+
+
+
+  <ion-row>
+    <ion-col col-3 *ngFor="let s of lista" >
+
+
+      <div class='audio' (click)='getaudio(s)' [style.background]="s.enable ? '#413bc6' : '#f4f4f4'">
+
+         <img  *ngIf='!s.enable' style='padding-top: 13px;' src='{{s.imagen}}'/>
+         <img  *ngIf='s.enable' style='padding-top: 13px;' src='{{s.imagen_hover}}'/>
+         
+         <div [style.color]="s.enable ? '#fff' : '#f07531'" style='font-weight:bold;'>{{s.letra}}</div>
+
+    </div>
+
+    </ion-col>
+    
+
+  </ion-row>
+
+
+ 
+</ion-grid>-->
+
+
+<div class="grid-container">
+  <div class="grid-item" *ngFor="let s of lista" >
+    
+     <div class='audio' (click)='getaudio(s)' [style.background]="s.enable ? '#3c2da2' : '#f4f4f4'">
+
+         <img  *ngIf='!s.enable' style='padding-top: 13px;' src='{{s.imagen}}'/>
+         <img  *ngIf='s.enable' style='padding-top: 13px;' src='{{s.imagen_hover}}'/>
+         
+         <div [style.color]="s.enable ? '#fff' : '#f07531'" style='font-weight:bold;'>{{s.letra}}</div>
+
+    </div>
+  </div>
+ 
+</div>
+
+
+	
+</ion-content>
+
+
+<ion-footer>
+  <ion-toolbar color='dark' style='text-align: center;'>
+    <div class='menuinferior'>
+
+      <div [navPush]="homePage">
+        <img src='assets/nav/nav-1A-Home.png'>
+       
+      </div>
+
+      <div>
+        <img src='assets/nav/nav-2B-GurmukhiSounds.png'>
+      </div>
+
+
+      <div [navPush]="japjiPage"><img src='assets/nav/nav-3A-Japji.png'>
+        
+      </div>
+
+
+      <div  [navPush]="libraryPage"><img src='assets/nav/nav-4A-AquarianMantras.png'>
+        
+      </div>
+
+
+      <div [navPush]="aboutPage"><img src='assets/nav/nav-5A-AboutUs.png'>
+      </div>
+
+
+    </div>
+
+  </ion-toolbar>
+</ion-footer>

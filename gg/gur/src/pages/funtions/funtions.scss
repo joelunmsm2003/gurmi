@@ -1,0 +1,80 @@
+page-funtions {
+
+
+
+.audio{
+	
+
+	//border: 1px solid #629fdc;
+    height: 73px;
+    //box-shadow: 2px 3px 3px 0px rgba(161, 194, 212, 0.75);
+    //border-radius: 5px;
+    text-align:center;
+    //padding-top: 25px;
+   
+}
+
+
+
+.language{
+	
+	
+	 display: grid;
+         grid-template-columns: 2fr 1fr;
+         background:#3c2da2;
+
+}
+
+.imagen{
+
+	col{
+		border:0px !important;
+	}
+}
+
+.grid {
+    padding: 0px;
+
+    }
+
+
+    .grid-container {
+  display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: -5px;
+    
+
+}
+
+.pronunciacion{
+
+  grid-template-columns: 0fr 0fr 0fr 1fr;
+  grid-template-rows: 1fr 1fr 0fr;
+}
+
+.lan{
+
+    
+}
+
+.detalle{
+
+	 display: grid;
+	 padding:15px;
+	 
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.menuinferior{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+
+
+.grid-item {
+ 
+border: 1px solid #6b6b6f !important;
+}
+
+}

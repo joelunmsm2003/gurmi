@@ -1,0 +1,23 @@
+page-japjimusic {
+
+
+		.menuinferior{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+
+
+		.content {
+			
+			background-color: red;
+			background-image: linear-gradient(#705ac7, #000);
+			}
+
+
+			h1,h4{
+				 font-family:'Rounded';
+				
+				 color:#fff;
+				}
+
+}

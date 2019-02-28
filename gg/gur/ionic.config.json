@@ -1,0 +1,7 @@
+{
+  "name": "gur",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
